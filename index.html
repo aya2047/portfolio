@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio MiyakeAya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="openbtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+        <nav>
+            <ul>
+                <li>
+                  <div class="button_line001">
+                    <a href="#about" class="navi">About</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="button_line001">
+                    <a href="#works" class="navi">Works</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="button_line001">
+                    <a href="#dtp" class="navi">DTP</a>
+                  </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="header-img"></div>
+        <div class="title">
+          <h2>PORTFOLIO</h2>
+          <h1>MIYAKE AYA</h1>
+        </div>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+        <section class="container">
+          <div class="bg-color-about blurTrigger blur"></div>
+            <div id="about" class="blurTrigger blur">
+                <h2>About</h2>
+              <div class="bg-color-about-2 blurTrigger blur">
+                <div class="profile-img blurTrigger blur"></div>
+              </div>
+              <div class="about-text">
+                <p>広島コンピュータ専門学校</p>
+                <h3>三宅亜弥</h3>
+                <p>デザインを見るターゲットやクライアントの立場に立ってデザインすることを心がけています。デザインのみにこだわらずスキル面でも精神面でも日々成長し、自分にできる形で問題解決のお手伝いをしていきたいです。</p>
+                <ul>
+                  <li class="pr-sk-ho">SKILL</li>
+                    <ul>
+                      <li class="skill"><small>アプリケーション</small> Illustrator Photoshop Figma</li>
+                      <li><small>コーディング</small> HTML CSS JQuery</li>
+                    </ul>
+                  <li class="pr-sk-ho">HOBBY</li>
+                  <li>料理をして、食べること</li>
+                </ul>
+              </div>
+            </div>
+        </section>
+
+        <!-- WORKS -->
+        <section class="container position2">
+            <div id="works" class="blurTrigger blur">
+              <h2>Works</h2>
+              <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="https://aya2047.github.io/syounika/" target="_blank">
+                            <img src="img/小児科モックアップ.png" alt="小児科サイト">
+                            <div class="works-text blurTrigger blur">
+                                <h3>小児科クリニック</h3>
+                                <p>架空の小児科クリニックサイトを想定しウェブサイトを制作しました。</p>
+                                <p>清潔感や安心感が感じられるサイトになるよう色味やフォントを調整しました。</p>
+                            </div>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="https://aya2047.github.io/calme/" target="_blank">
+                            <img src="img/calmeモックアップ.png" alt="ケーキ屋カルメサイト">
+                            <div class="works-text">
+                                <div></div>
+                                <h3>パティスリーカルメ</h3>
+                                <p>架空のケーキ屋からの依頼を想定し制作しました。</p>
+                                <p>地元の親近感がわくケーキ屋をイメージし、柔らかい印象になるようにしました。</p>
+                            </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- DTP -->
+        <section class="container">
+          <div id="dtp" class="blurTrigger blur">
+            <h2>DTP</h2>
+            <div class="">
+              <ul class="dtp-img">
+                <li class="portrait"><a href="#large-img-sakuhinten" class="modal-open"><img src="img/作品展ポスター-min.jpg" alt="作品展ポスター"></a></li>
+                <li><a href="#large-img-scene" class="modal-open"><img src="img/SCENE-min.png" alt="SCENE写真"></a></li>
+                <li><a href="#large-img-car" class="modal-open"><img src="img/車広告-min.jpg" alt="車広告"></a></li>
+              </ul>
+              <div id="large-img-sakuhinten">
+                <img src="img/作品展_web-三宅_A3_0925ol.jpg" height="600px" alt="作品展ポスター大">
+                <h2>2024　作品展ポスター</h2>
+              </div>
+              <div id="large-img-scene">
+                <img src="img/SCENE_三宅亜弥.png" alt="SCENE写真大">
+                <h2>SCENE</h2>
+              </div>
+              <div id="large-img-car">
+                <img src="img/車広告.jpg" alt="車広告大">
+                <h2>中古車　広告</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>@2024 Miyake Aya Portfolio</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="portfolio.js"></script>
+    </body>
+</html>
