@@ -267,7 +267,7 @@ main{
 }
 
 /* ポップアップ */
-#large-img-sakuhinten,#large-img-scene,#large-img-car{
+#large-img-sakuhinten,#large-img-scene,#large-img-car,#large-img-CD,#large-img-poster2025,#large-img-50{
     display: none;
 }
 .modaal-content-container{
